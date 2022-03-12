@@ -1,0 +1,250 @@
+
+/* Section Color and Font style  and writing main things at one place */
+
+
+.cta-head,.Big-heading,#testimonials{
+  color: #fff;
+}
+#features,.Ending{
+  background-color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:"Montserrat";
+  font-weight: bolder;
+}
+
+.Big-heading{
+
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+  padding-bottom: 10%;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+/* COLOURED SECTIONS */
+.coloured-section{
+    background-color: #ff4c68;
+      color: #fff;
+}
+.white-section{
+  background-color:#fff;
+}
+
+
+
+/* Body IMPORTANT */
+body{
+  font-family:"Montserrat";
+  text-align: center;
+}
+
+/* Body IMPORTANT */
+
+
+/* Navbar */
+.navbar{
+  padding: 0 0 4.5rem
+}
+.navbar-brand{
+
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+
+}
+.nav-item{
+padding: 0 18px;
+
+}
+
+.nav-link{
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+/* Download Button */
+.download-button{
+  margin:5% 3% 5% 0 ;
+}
+
+/* TITLE SECTION */
+
+#title{
+  text-align: left;
+}
+#title.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.title-image{
+  width:20%;
+  transform: rotate(25deg);
+  position:absolute;
+  margin-right: 10%;
+}
+/* Intro */
+.intro-web{
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  font-size: 2.0rem;
+
+
+}
+/* Fontawesome */
+.fa-circle-check,.fa-bullseye,.fa-heart{
+    color: #ff4c68;
+    font-size: 100px;
+}
+.fa-circle-check{
+
+
+  padding-right: 10%;
+margin-bottom: 1rem;
+}
+.fa-bullseye{
+
+  padding-right: `10%;
+  margin-bottom: 1rem;
+}
+.fa-heart{
+
+  padding-right:  13.5%;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#D9CE3F;
+}
+.ricon:hover{
+  color:#B4CFB0;
+
+}
+/* Detail */
+
+
+/* FeATURE */
+#features{
+padding: 9% 10%;
+
+  position: relative;
+
+}
+.icon{
+  padding-right:5.5rem;
+
+
+}
+
+/* Featurebox */
+p{
+  color: #8f8f8f;
+}
+/* Testimonials */
+#testimonials{
+
+
+  background-color: #ef8712;
+
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 5%;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+
+
+#press{
+  background-color: #ef8712;
+
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+/* pricing */
+.yo{
+  padding-bottom: 39.5px;
+}
+#pricing{
+  padding:100px;
+
+}
+.pricing-column{
+  padding:3% 2%;
+}
+
+
+/* Responsive code  to make website look same on desktop and mobile phone*/
+
+@media (max-width:1004px){
+#title{
+  text-align: center;
+}
+
+
+.title-image{
+  position:static;
+  transform:rotate(0);
+  width: auto;
+}
+#features{
+  text-align: center
+}
+.fa-circle-check,.fa-bullseye{
+  color: #ff4c68;
+  font-size: 100px;
+  padding-right: 25%;
+margin-bottom: 1rem;
+}
+
+.fa-heart{
+  color: #ff4c68;
+  font-size: 100px;
+  padding-right: 30%;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#D9CE3F;
+}
+.ricon:hover{
+  color:#B4CFB0;
+
+}
+}
+
+/* Footer and Ending Section */
+#cta{
+
+
+}
+
+
+
+/* Footer */
+
+.Ending{
+
+
+  padding: 7% 10%;
+
+}
+.insta,.fb,.tweet,.mail{
+  size:1rem;
+  padding: 10px;
+  font-weight: bold;
+}
